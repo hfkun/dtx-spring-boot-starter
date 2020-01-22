@@ -4,7 +4,7 @@
 
 #### 基本原理
 
-![123](https://github.com/hfkun/dtx-spring-boot-starter/123.png)
+![123](https://github.com/hfkun/dtx-spring-boot-starter/blob/master/123.png)
 
 #### 依赖：
 
