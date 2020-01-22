@@ -4,7 +4,7 @@
 
 #### 基本原理
 
-![1579584796775](C:\Users\l\AppData\Roaming\Typora\typora-user-images\1579584796775.png)
+![123](https://github.com/hfkun/dtx-spring-boot-starter/123.png)
 
 #### 依赖：
 
