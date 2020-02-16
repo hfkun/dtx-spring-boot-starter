@@ -7,8 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consumer" />
+        <module name="dtx-master-sprint-boot-starter" />
         <module name="dtx-spring-boot-starter" />
+        <module name="dtx-spring-boot-starter-autoconfigure" />
+        <module name="eureka-service" />
+        <module name="provider" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cainiao" target="1.8" />
+      <module name="dtx-spring-boot-starter" target="1.8" />
+      <module name="nn" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

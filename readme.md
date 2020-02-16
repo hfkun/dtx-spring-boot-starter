@@ -4,7 +4,7 @@
 
 #### 基本原理
 
-![123](https://github.com/hfkun/dtx-spring-boot-starter/blob/master/123.png)
+![](123.png)
 
 #### 依赖：
 
@@ -14,7 +14,7 @@ jkd1.8，springboot，mybatis-plus，fastjson，mysql
 
 #### 使用：
 
-##### A系统：
+##### Consumer系统：
 
 * 数据库表：
 
@@ -57,7 +57,7 @@ public String update(Integer num) {
 
 > 注意：使用框架提供的依赖工具：**com.distributedtx.utils.DtxHttpUtil**.sendDtxPost(url, requestBody,B系统的name);
 
-##### B系统
+##### Provider系统
 
 * 数据库表：
 
@@ -141,7 +141,7 @@ public int updateById(BankCard card){
 
 
 
-
+> 启动顺序，推荐先启动Consumer，然后是Provider
 
 
 
